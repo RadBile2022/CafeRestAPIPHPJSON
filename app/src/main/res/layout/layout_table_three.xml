@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/listLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@android:color/white"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/TVNo"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="No Meja"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:background="@drawable/border_right_bottom"
+        android:textColor="#000" />
+
+
+    <TextView
+        android:id="@+id/TVMenu"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Menu"
+        android:singleLine="true"
+        android:background="@drawable/border_right_bottom"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/TVHrg"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Harga"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:background="@drawable/border_right_bottom"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/TVJml"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Jml"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:background="@drawable/border_right_bottom"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/TVTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Total"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:background="@drawable/border_right_bottom"
+        android:textColor="#000" />
+
+
+
+
+
+</LinearLayout>
