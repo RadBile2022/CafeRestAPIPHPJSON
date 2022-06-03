@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 
@@ -29,6 +31,8 @@ class MainActivity : AppCompatActivity() {
 //                    }
                 }
 
+
+
                 override fun onFailure(call: Call<CartModel>, t: Throwable) {
                     showLoading(false)
                 }
@@ -43,6 +47,9 @@ class MainActivity : AppCompatActivity() {
         supportActionBar!!.title = "My Cafe"
         setupRecylerView()
         getDataFromApi()
+
+        val etName = findViewById(R.id.TVHrg) as TextView
+
 
 
     }
